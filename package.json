@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-iter-sequences-nonpositive-even-integers",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Create an iterator which generates a sequence of nonpositive even integers.",
   "license": "Apache-2.0",
   "author": {
