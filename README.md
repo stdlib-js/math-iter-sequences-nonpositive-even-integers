@@ -207,11 +207,6 @@ For more information on the project, filing bug reports and feature requests, an
 
 ---
 
-## License
-
-See [LICENSE][stdlib-license].
-
-
 ## Copyright
 
 Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
@@ -253,8 +248,6 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/math-iter-sequences-nonpositive-even-integers/tree/deno
 [umd-url]: https://github.com/stdlib-js/math-iter-sequences-nonpositive-even-integers/tree/umd
 [esm-url]: https://github.com/stdlib-js/math-iter-sequences-nonpositive-even-integers/tree/esm
-
-[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math-iter-sequences-nonpositive-even-integers/main/LICENSE
 
 <!-- <related-links> -->
 
