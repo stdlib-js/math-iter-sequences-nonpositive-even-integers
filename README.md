@@ -45,7 +45,23 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-iter-sequences-nonpositive-even-integers
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
@@ -54,12 +70,7 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
-import iterNonPositiveEvenIntegersSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-nonpositive-even-integers@esm/index.mjs';
-```
-The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-iter-sequences-nonpositive-even-integers/tags). For example,
-
-```javascript
-import iterNonPositiveEvenIntegersSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-nonpositive-even-integers@v0.1.0-esm/index.mjs';
+var iterNonPositiveEvenIntegersSeq = require( '@stdlib/math-iter-sequences-nonpositive-even-integers' );
 ```
 
 #### iterNonPositiveEvenIntegersSeq( \[options] )
@@ -140,13 +151,8 @@ var bool = it.next().done;
 
 <!-- eslint-disable id-length -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import iterNonPositiveEvenIntegersSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-nonpositive-even-integers@esm/index.mjs';
+```javascript
+var iterNonPositiveEvenIntegersSeq = require( '@stdlib/math-iter-sequences-nonpositive-even-integers' );
 
 // Create an iterator:
 var opts = {
@@ -163,10 +169,6 @@ while ( true ) {
     }
     console.log( v.value );
 }
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -208,7 +210,7 @@ while ( true ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -217,11 +219,6 @@ For more information on the project, filing bug reports and feature requests, an
 [![Chat][chat-image]][chat-url]
 
 ---
-
-## License
-
-See [LICENSE][stdlib-license].
-
 
 ## Copyright
 
@@ -238,11 +235,11 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/math-iter-sequences-nonpositive-even-integers.svg
 [npm-url]: https://npmjs.org/package/@stdlib/math-iter-sequences-nonpositive-even-integers
 
-[test-image]: https://github.com/stdlib-js/math-iter-sequences-nonpositive-even-integers/actions/workflows/test.yml/badge.svg?branch=v0.1.0
-[test-url]: https://github.com/stdlib-js/math-iter-sequences-nonpositive-even-integers/actions/workflows/test.yml?query=branch:v0.1.0
+[test-image]: https://github.com/stdlib-js/math-iter-sequences-nonpositive-even-integers/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/math-iter-sequences-nonpositive-even-integers/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/math-iter-sequences-nonpositive-even-integers/main.svg
-[coverage-url]: https://codecov.io/github/stdlib-js/math-iter-sequences-nonpositive-even-integers?branch=v0.1.0
+[coverage-url]: https://codecov.io/github/stdlib-js/math-iter-sequences-nonpositive-even-integers?branch=main
 
 <!--
 
@@ -266,19 +263,17 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [esm-url]: https://github.com/stdlib-js/math-iter-sequences-nonpositive-even-integers/tree/esm
 [branches-url]: https://github.com/stdlib-js/math-iter-sequences-nonpositive-even-integers/blob/main/branches.md
 
-[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math-iter-sequences-nonpositive-even-integers/main/LICENSE
-
 <!-- <related-links> -->
 
-[@stdlib/math/iter/sequences/even-integers]: https://github.com/stdlib-js/math-iter-sequences-even-integers/tree/esm
+[@stdlib/math/iter/sequences/even-integers]: https://github.com/stdlib-js/math-iter-sequences-even-integers
 
-[@stdlib/math/iter/sequences/integers]: https://github.com/stdlib-js/math-iter-sequences-integers/tree/esm
+[@stdlib/math/iter/sequences/integers]: https://github.com/stdlib-js/math-iter-sequences-integers
 
-[@stdlib/math/iter/sequences/nonnegative-even-integers]: https://github.com/stdlib-js/math-iter-sequences-nonnegative-even-integers/tree/esm
+[@stdlib/math/iter/sequences/nonnegative-even-integers]: https://github.com/stdlib-js/math-iter-sequences-nonnegative-even-integers
 
-[@stdlib/math/iter/sequences/nonpositive-integers]: https://github.com/stdlib-js/math-iter-sequences-nonpositive-integers/tree/esm
+[@stdlib/math/iter/sequences/nonpositive-integers]: https://github.com/stdlib-js/math-iter-sequences-nonpositive-integers
 
-[@stdlib/math/iter/sequences/negative-even-integers]: https://github.com/stdlib-js/math-iter-sequences-negative-even-integers/tree/esm
+[@stdlib/math/iter/sequences/negative-even-integers]: https://github.com/stdlib-js/math-iter-sequences-negative-even-integers
 
 <!-- </related-links> -->
 
