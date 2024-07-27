@@ -54,7 +54,7 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
-import iterNonPositiveEvenIntegersSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-nonpositive-even-integers@deno/mod.js';
+import iterNonPositiveEvenIntegersSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-nonpositive-even-integers@v0.2.1-deno/mod.js';
 ```
 
 #### iterNonPositiveEvenIntegersSeq( \[options] )
@@ -136,7 +136,7 @@ var bool = it.next().done;
 <!-- eslint-disable id-length -->
 
 ```javascript
-import iterNonPositiveEvenIntegersSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-nonpositive-even-integers@deno/mod.js';
+import iterNonPositiveEvenIntegersSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-nonpositive-even-integers@v0.2.1-deno/mod.js';
 
 // Create an iterator:
 var opts = {
